@@ -15,7 +15,9 @@
     display: flex;
     width: 75%;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 3rem 0;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .upper-content {
@@ -52,6 +54,7 @@
     padding: 0 0.75rem;
     width: 100%;
     min-width: 380px;
+    max-width: 500px;
 }
 
 .input-group {
@@ -76,7 +79,8 @@
 }
 
 .middle-content {
-    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    ;
     padding: 1rem 0;
     display: flex;
     justify-content: center;
@@ -113,13 +117,15 @@
     line-height: 3rem;
 }
 
-.sign{
+.sign {
     text-decoration: none;
     color: #0095f6;
 }
 
-@media (width < 700px){
-    .img{
-        display: none;
+@media screen and (max-width: 900px) {
+    .container {
+        flex-wrap: wrap;
     }
+}
+    
 }
