@@ -1,14 +1,11 @@
-.title {
-    width: 90%;
+.container{
+    display: flex;
+    width: 80%;
     margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
-    font-style: italic;
-    text-transform: uppercase;
 }
-
-hr{
-    border: none;
-    border-top: 15px dotted #5f5656;
-    width: 50%;
+.upper-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
