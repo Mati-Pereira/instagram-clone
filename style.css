@@ -1,11 +1,38 @@
-.container{
+* {
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+.container {
     display: flex;
     width: 80%;
     margin: 0 auto;
+    padding: 3rem;
 }
-.upper-content{
+
+.upper-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.or {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.content {
+    text-align: center;
+    border: 1px solid #000;
+    height: 100%;
 }
